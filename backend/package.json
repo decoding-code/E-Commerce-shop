@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pratik Chavan",
   "license": "ISC",
-  "description": ""
+  "description": "This is backend for the ecommerce appliation provide REST apis"
 }
