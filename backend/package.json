@@ -2,10 +2,25 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "dev": "nodemon dist/app.js"
   },
   "author": "Pratik Chavan",
   "license": "ISC",
-  "description": "This is backend for the e-commerce application provide REST apis"
+  "description": "This is backend for the e-commerce application provide REST apis",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "nodemon": "^3.1.7",
+    "typescript": "^5.6.2"
+  }
 }
